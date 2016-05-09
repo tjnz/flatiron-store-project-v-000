@@ -13,3 +13,6 @@ Item.all.each do |item|
   item.save
   counter += 1
 end
+
+
+User.create(email: "test@test.com", password: "11111111", password_confirmation: "11111111")

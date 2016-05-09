@@ -1,0 +1,60 @@
+=> [[32m#<Item:0xa03069c[0m
+  id: [1;34m1[0m,
+  title: [31m[1;31m"[0m[31mHeavy Duty Concrete Shirt[1;31m"[0m[31m[0m,
+  category_id: [1;34m1[0m,
+  inventory: [1;34m0[0m,
+  price: [32m#<BigDecimal:a058ac0,'0.1267E4',9(27)>[0m[32m>[0m,
+ [32m#<Item:0xa0304e4[0m
+  id: [1;34m2[0m,
+  title: [31m[1;31m"[0m[31mDurable Plastic Pants[1;31m"[0m[31m[0m,
+  category_id: [1;34m2[0m,
+  inventory: [1;34m63[0m,
+  price: [32m#<BigDecimal:a08b40c,'0.9722E4',9(27)>[0m[32m>[0m,
+ [32m#<Item:0xa030368[0m
+  id: [1;34m3[0m,
+  title: [31m[1;31m"[0m[31mRustic Wooden Coat[1;31m"[0m[31m[0m,
+  category_id: [1;34m3[0m,
+  inventory: [1;34m16[0m,
+  price: [32m#<BigDecimal:a0a1d60,'0.1468E4',9(27)>[0m[32m>[0m,
+ [32m#<Item:0xa030214[0m
+  id: [1;34m4[0m,
+  title: [31m[1;31m"[0m[31mFantastic Copper Shoes[1;31m"[0m[31m[0m,
+  category_id: [1;34m4[0m,
+  inventory: [1;34m87[0m,
+  price: [32m#<BigDecimal:a0c7ac4,'0.6036E4',9(27)>[0m[32m>[0m,
+ [32m#<Item:0xa030084[0m
+  id: [1;34m5[0m,
+  title: [31m[1;31m"[0m[31mSleek Concrete Shirt[1;31m"[0m[31m[0m,
+  category_id: [1;34m5[0m,
+  inventory: [1;34m29[0m,
+  price: [32m#<BigDecimal:a124fbc,'0.5296E4',9(27)>[0m[32m>[0m,
+ [32m#<Item:0xa037f00[0m
+  id: [1;34m6[0m,
+  title: [31m[1;31m"[0m[31mDurable Cotton Watch[1;31m"[0m[31m[0m,
+  category_id: [1;34m6[0m,
+  inventory: [1;34m76[0m,
+  price: [32m#<BigDecimal:a215228,'0.7352E4',9(27)>[0m[32m>[0m,
+ [32m#<Item:0xa037ca8[0m
+  id: [1;34m7[0m,
+  title: [31m[1;31m"[0m[31mRustic Concrete Coat[1;31m"[0m[31m[0m,
+  category_id: [1;34m7[0m,
+  inventory: [1;34m94[0m,
+  price: [32m#<BigDecimal:a236cd4,'0.6004E4',9(27)>[0m[32m>[0m,
+ [32m#<Item:0xa037b18[0m
+  id: [1;34m8[0m,
+  title: [31m[1;31m"[0m[31mSynergistic Copper Coat[1;31m"[0m[31m[0m,
+  category_id: [1;34m8[0m,
+  inventory: [1;34m78[0m,
+  price: [32m#<BigDecimal:a261da8,'0.7992E4',9(27)>[0m[32m>[0m,
+ [32m#<Item:0xa037974[0m
+  id: [1;34m9[0m,
+  title: [31m[1;31m"[0m[31mPractical Silk Lamp[1;31m"[0m[31m[0m,
+  category_id: [1;34m9[0m,
+  inventory: [1;34m94[0m,
+  price: [32m#<BigDecimal:a286bf8,'0.9537E4',9(27)>[0m[32m>[0m,
+ [32m#<Item:0xa037848[0m
+  id: [1;34m10[0m,
+  title: [31m[1;31m"[0m[31mHeavy Duty Silk Shirt[1;31m"[0m[31m[0m,
+  category_id: [1;34m10[0m,
+  inventory: [1;34m32[0m,
+  price: [32m#<BigDecimal:a2ad67c,'0.1466E4',9(27)>[0m[32m>[0m]
