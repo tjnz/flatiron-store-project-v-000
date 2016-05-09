@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   before_filter :current_cart
 	
 	def current_cart
-	 	@cart = current_user.current_cart if current_user
+	 	@cart = current_user.try(:current_cart) || nil
 	end
 
 end

@@ -6,14 +6,22 @@ class User < ActiveRecord::Base
   has_many :carts
   
   def current_cart=(cart)
-  	self.carts << cart
+    self.carts << cart if cart
     cart
   end
   
   def current_cart
-    if self.carts
-      self.carts.last
+    if self.carts.last
+      self.carts.last 
     end
+  end
+  
+  def last_cart
+    self.carts.last
+  end
+  
+  def create_current_cart
+    self.carts.create
   end
   
 end
