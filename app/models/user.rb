@@ -1,27 +1,21 @@
+
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   has_many :carts
+  belongs_to :current_cart, :class_name =>  "Cart"
   
-  def current_cart=(cart)
-    self.carts << cart if cart
-    cart
+  def create_cart
+    cart = carts.create
+    self.current_cart_id = cart.id
+    save
   end
   
-  def current_cart
-    if self.carts.last
-      self.carts.last 
-    end
-  end
-  
-  def last_cart
-    self.carts.last
-  end
-  
-  def create_current_cart
-    self.carts.create
+  def remove_cart
+    self.current_cart_id = nil
+    save
   end
   
 end

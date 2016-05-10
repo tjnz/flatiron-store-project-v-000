@@ -6,4 +6,8 @@ class Item < ActiveRecord::Base
 		where("inventory > ?", 0)
 	end
 
+	def printable_price
+		price.to_f/100
+	end
+
 end

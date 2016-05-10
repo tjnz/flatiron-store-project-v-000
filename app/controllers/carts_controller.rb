@@ -8,11 +8,7 @@ class CartsController < ApplicationController
 	
 	def checkout
 		current_user.current_cart.checkout
-		current_user.current_cart = nil
-		redirect_to cart_path(current_user.last_cart)
+		redirect_to cart_path
 	end
-	
-	private
-	
-	
+
 end
